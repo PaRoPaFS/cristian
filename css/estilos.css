@@ -15,7 +15,7 @@ body{
     padding: 0;
 }
 
-/* Esta parte es para darle códigos a los icons de Google font */
+/* Esta parte es para darle formato a los iconos de Google font */
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -28,7 +28,7 @@ h1{
     /* font-family: 'Hind', sans-serif; */
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
-    /* font-size: 4rem; */
+    font-size: 4rem;
 }
 
 img{
