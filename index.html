@@ -4,9 +4,225 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script src="script.js" defer></script>
+    <title>coder-farm</title>
 </head>
 <body>
+    <!-- Este código es para poder insertar inconos de Google Font -->
+    <!-- Lo único que se cambia es la palabra serch por la palabra correspondiente al icono que queramos -->
+    <!-- para buscar más inconos buscar en el siguiente link: https://fonts.google.com/icons?preview.text=hola%20mundo&preview.text_type=custom&icon.platform=web -->
     
+    <!-- <span class="material-symbols-outlined">
+        search
+    </span> -->
+
+    <!-- SECCIÓN DE ANDRÉS -->
+    <nav class="navbar">
+        <div class="marca">Coders Farm</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Qué hacemos</a></li>
+                <li><a href="#techs">Tecnologías</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Sómos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Estas son las secciones -->
+    <section id="whatwedo"></section>
+    <section id="techs">
+        <div class="tech-title">
+            <h2>Tecnologías</h2>
+        </div>
+        <div class="tech-body">
+            <div class="tech-container">
+                <a href="https://aws.amazon.com/" target="_blank">
+                    <img src="/img/aws_logo.svg" alt="Amazon Web Services" class="tech">
+                </a>
+                <a href="https://cloud.google.com/" target="_blank">
+                    <img src="/img/gcp_logo.svg" alt="Google Cloud" class="tech">
+                </a>
+                <a href="https://azure.microsoft.com/" target="_blank">
+                    <img src="/img/azure_logo.svg" alt="Azure" class="tech">
+                </a>
+                <a href="https://www.heroku.com/" target="_blank">
+                    <img src="/img/heroku_logo.svg" alt="Heroku" class="tech">
+                </a>
+                <a href="https://www.digitalocean.com/" target="_blank">
+                    <img src="/img/digitalocean_logo.svg" alt="DigitalOcean" class="tech">
+                </a>
+                <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift" target="_blank">
+                    <img src="/img/openshift_logo.svg" alt="OpenShift" class="tech">
+                </a>
+                <a href="https://www.kubernetes.io/" target="_blank">
+                    <img src="/img/kubernetes_logo.svg" alt="Kubernetes" class="tech">
+                </a>
+                <a href="https://www.docker.com/" target="_blank">
+                    <img src="/img/docker_logo.svg" alt="Docker" class="tech">
+                </a>
+                <a href="https://istio.io/" target="_blank">
+                    <img src="/img/istio_logo.svg" alt="Istio" class="tech">
+                </a>
+                <a href="https://argoproj.github.io/" target="_blank">
+                    <img src="/img/argo_logo.svg" alt="ArgoCD" class="tech">
+                </a>
+                <a href="https://about.gitlab.com/" target="_blank">
+                    <img src="/img/gitlab_logo.svg" alt="GitLab" class="tech">
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    <img src="/img/github_logo.svg" alt="Github" class="tech">
+                </a>
+                <a href="https://bitbucket.org/" target="_blank">
+                    <img src="/img/bitbucket_logo.svg" alt="Bitbucket" class="tech">
+                </a>
+                <a href="https://www.ansible.com/" target="_blank">
+                    <img src="/img/ansible_logo.svg" alt="Ansible" class="tech">
+                </a>
+                <a href="https://www.terraform.io/" target="_blank">
+                    <img src="/img/terraform_logo.svg" alt="Terraform" class="tech">
+                </a>
+                <a href="https://www.nagios.org/" target="_blank">
+                    <img src="/img/nagios_logo.svg" alt="Nagios" class="tech">
+                </a>
+                <a href="https://www.datadoghq.com/" target="_blank">
+                    <img src="/img/datadog_logo.svg" alt="Datadog" class="tech">
+                </a>
+                <a href="https://grafana.com/" target="_blank">
+                    <img src="/img/grafana_logo.svg" alt="Grafana" class="tech">
+                </a>
+                <a href="https://newrelic.com/" target="_blank">
+                    <img src="/img/newrelic_logo.svg" alt="New Relic" class="tech">
+                </a>
+                <a href="https://nodejs.org/" target="_blank">
+                    <img src="/img/nodejs_logo.svg" alt="NodeJS" class="tech">
+                </a>
+                <a href="https://www.python.org/" target="_blank">
+                    <img src="/img/python_logo.svg" alt="Python" class="tech">
+                </a>
+                <a href="https://html5.org/" target="_blank">
+                    <img src="/img/html5_logo.svg" alt="HTML5" class="tech">
+                </a>
+                <a href="https://www.java.com/" target="_blank">
+                    <img src="/img/java_logo.svg" alt="Java" class="tech">
+                </a>
+                <a href="https://www.php.net/" target="_blank">
+                    <img src="/img/php_logo.svg" alt="PHP" class="tech">
+                </a>
+                <a href="https://reactjs.org/" target="_blank">
+                    <img src="/img/react_logo.svg" alt="React" class="tech">
+                </a>
+                <a href="https://angular.io/" target="_blank">
+                    <img src="/img/angular_logo.svg" alt="Angular" class="tech">
+                </a>
+                <a href="https://vuejs.org/" target="_blank">
+                    <img src="/img/vuejs_logo.svg" alt="Vue.js" class="tech">
+                </a>
+                <a href="https://ionicframework.com/" target="_blank">
+                    <img src="/img/ionic_logo.svg" alt="Ionic" class="tech">
+                </a>
+                <a href="https://laravel.com/" target="_blank">
+                    <img src="/img/laravel_logo.svg" alt="Laravel" class="tech">
+                </a>
+                <a href="https://feathersjs.com/" target="_blank">
+                    <img src="/img/feathersjs_logo.svg" alt="Feathers" class="tech">
+                </a>
+                <a href="https://www.djangoproject.com/" target="_blank">
+                    <img src="/img/django_logo.svg" alt="Django" class="tech">
+                </a>
+                <a href="https://getbootstrap.com/" target="_blank">
+                    <img src="/img/bootstrap_logo.svg" alt="Bootstrap" class="tech">
+                </a>
+                <a href="https://www.mysql.com/" target="_blank">
+                    <img src="/img/mysql_logo.svg" alt="MySQL" class="tech">
+                </a>
+                <a href="https://www.postgresql.org/" target="_blank">
+                    <img src="/img/postresql_logo.svg" alt="PostgreSQL" class="tech">
+                </a>
+                <a href="https://www.mongodb.com/" target="_blank">
+                    <img src="/img/mongodb_logo.svg" alt="MongoDB" class="tech">
+                </a>
+                <a href="https://couchdb.apache.org/" target="_blank">
+                    <img src="/img/couchdb_logo.svg" alt="CouchDB" class="tech">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="projects"></section>
+    <section id="who"></section>
+    <section id="contact"></section>
+    <div class="whatwedo">
+        <!--Aca completar con un bloque de lo que hacemos-->
+    </div>
+    <div class="techs">
+        <!--Aca completar con un bloque de lo que hacemos-->
+    </div>
+    <div class="projects">
+        <!--Aca completar con un bloque de lo que hacemos-->
+    </div>
+    <div class="who">
+        <!--Aca completar con un bloque de lo que hacemos-->
+    </div>
+    <div class="contact">
+        <!--Aca completar con un bloque de lo que hacemos-->
+    </div>
+
+
+
+
+
+
+
+    <!-- SECCIÓN DE CRISTIAN -->
+
+    <main>
+        <section class="portfolio">
+            <h2>PROYECTOS REALIZADOS</h2>
+            <div class="containerSlider">
+                <ul class="sliderContenido">
+                    <li id="trabajo1">
+                        <img class="imgSlider fadeIn" src="./img/realizado1.png" alt="trabajo realizado portfolio">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam soluta officia consequuntur quis perferendis impedit labore atque, maxime eos ab quas nostrum quam repellendus! Dicta incidunt saepe consequuntur ipsum cum!</p>
+                    </li>
+                    <li id="trabajo2">
+                        <img class="imgSlider fadeIn" src="./img/realizado2.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam soluta officia consequuntur quis perferendis impedit labore atque, maxime eos ab quas nostrum quam repellendus! Dicta incidunt saepe consequuntur ipsum cum!</p>
+                    </li>
+                    <li id="trabajo3">
+                        <img class="imgSlider fadeIn" src="./img/realizado3.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam soluta officia consequuntur quis perferendis impedit labore atque, maxime eos ab quas nostrum quam repellendus! Dicta incidunt saepe consequuntur ipsum cum!</p>
+                    </li>
+                    <li id="trabajo4">
+                        <img class="imgSlider fadeIn" src="./img/realizado4.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam soluta officia consequuntur quis perferendis impedit labore atque, maxime eos ab quas nostrum quam repellendus! Dicta incidunt saepe consequuntur ipsum cum!</p>
+                    </li>
+                </ul>
+                <ul class="sliderMenu">
+                    <li>
+                        <a href="#trabajo1">●</a>
+                    </li>
+                    <li>
+                        <a href="#trabajo2">●</a>
+                    </li>
+                    <li>
+                        <a href="#trabajo3">●</a>
+                    </li>
+                    <li>
+                        <a href="#trabajo4">●</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
