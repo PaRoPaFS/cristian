@@ -1,0 +1,144 @@
+/* GLOBAL SETTINGS */
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hind', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* Esta parte es para darle códigos a los icons de Google font */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+h1{
+    /* font-family: 'Hind', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-size: 4rem; */
+}
+
+img{
+    max-width: 100%;
+}
+
+
+a:visited, a:link {
+    text-decoration: none;
+}
+
+/* SECTION SETTINGS */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8c1c3;
+    height: 80rem;
+}
+
+
+/* SLIDER SETTINGS */
+
+.portfolio h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin: 1rem;
+}
+
+.portfolio p {
+    font-size: 2rem;
+    padding: 0rem 2rem;
+}
+
+.containerSlider {
+    margin: auto;
+    padding: 2rem;
+    width: 100%;
+    height: 60rem;
+}
+
+.sliderContenido {
+    position: relative;
+    height: 60rem;
+}
+
+.sliderContenido ul {
+    position: relative;
+}
+
+.containerSlider ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.sliderContenido li {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity 1s;
+}
+
+ul.sliderContenido li img {
+    object-fit: cover;
+}
+
+#trabajo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#trabajo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#trabajo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#trabajo4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SLIDER PICKER */
+
+ul.sliderContenido li:first-child{
+    opacity: 1;
+}
+
+ul.sliderContenido li:target {
+    opacity: 1;
+}
+
+.sliderMenu {
+    display: flex;
+    justify-content: center;
+}
+
+.sliderMenu li a {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
