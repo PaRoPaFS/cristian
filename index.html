@@ -20,12 +20,11 @@
         search
     </span> -->
 
-    <!-- HEADER -->
     <div class="grid-container">
+        <!-- HEADER -->
+        <!-- SECCIÓN DE ANDRÉS -->
         <div class="item1">
-
-            <!-- SECCIÓN DE ANDRÉS -->
-            <nav class="navbar">
+            <nav>
                 <div id="marca">CODER FARM</div>
                 <a href="#" class="toggle-button">
                     <span class="bar"></span>
@@ -35,15 +34,10 @@
                 <div class="navbar-links">
                     <ul>
                         <li><a href="#marca">Inicio</a></li>
-                        <li>|</li>
                         <li><a href="#who">Quiénes Somos</a></li>
-                        <li>|</li>
                         <li><a href="#whatwedo">Qué hacemos</a></li>
-                        <li>|</li>
                         <li><a href="#techs">Tecnologías</a></li>
-                        <li>|</li>
                         <li><a href="#portfolio">Proyectos</a></li>
-                        <li>|</li>
                         <li><a href="#contact">Contacto</a></li>
                     </ul>
                 </div>
@@ -232,6 +226,7 @@
             </section>
             
         </div>
+
             
             
         <!-- ASIDE -->
@@ -240,11 +235,36 @@
         <!-- FOOTER -->
         <div class="item5">
             <div id="contact">
-                <h2>CONTACTO</h2>
+                <h2>CONTÁCTANOS</h2>
                 AQUI VA EL FORMULARIO DE CONTACTO
+
+                <form action="show_data.html" target="_blank">
+                    <label for="firstname"></label>
+                    <input type="text" name="firstname"
+                    placeholder="Nombre"><br>
+
+                    <label for="lastname"></label>
+                    <input type="text" name="lastname"
+                    placeholder="Apellido"><br>
+
+                    <label for="mail"></label>
+                    <input type="text" name="mail"
+                    placeholder="Email"><br>
+
+                    <label for="telefono"></label>
+                    <input type="number" name="telefono"
+                    placeholder="Teléfono"><br>
+
+                    <label for="comentarios"></label>
+                    <textarea id="msg" name="comentarios" id="" cols="30" rows="10" placeholder="Detalles del proyecto"></textarea>
+                    <br>
+                    <div class="boton_enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                    
+                </form>
             </div>            
         </div>
-
     </div>
     
 
