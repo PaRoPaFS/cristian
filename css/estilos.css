@@ -279,6 +279,67 @@ img.tech:hover {
     filter: none;
 }
 
+/* Andres */
+/* About US */
+
+#about-us-section {
+    background-color: #505393;
+    color: #d3d4e4;
+    text-align: center;
+}
+
+.about-us {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.about-us-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.about-us-lista h3 {
+    text-transform: uppercase;
+    margin: 0 0 1em 0;
+    text-align: left;
+}
+
+.about-us-lista li:nth-child(2n+1) {
+    border-top-left-radius: 3px;
+    background-color: rgba(0,0,0,0.035);
+}
+
+.about-us-lista li {
+    padding: 4em 4em 2em 6em;
+    display: block;
+    position: relative;
+    text-align: left;
+    width: 33.3%
+}
+
+.about-us-img {
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 100px;
+    height: 100px;
+    max-width: 120px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.about-us-lista p {
+    display:inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+=======
 /* Estilos agregados por Luis */
 
 /*Encabezado*/
@@ -355,3 +416,4 @@ h2{
 
 
 } */
+
