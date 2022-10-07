@@ -15,7 +15,7 @@ body{
     padding: 0;
 }
 
-/* Esta parte es para darle códigos a los icons de Google font */
+/* Esta parte es para darle formato a los iconos de Google font */
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -28,7 +28,7 @@ h1{
     /* font-family: 'Hind', sans-serif; */
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
-    /* font-size: 4rem; */
+    font-size: 4rem;
 }
 
 img{
@@ -45,24 +45,25 @@ a:visited, a:link {
 
 /* SECTION SETTINGS */
 
-.portfolio {
+#portfolio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #f8c1c3;
     height: 80rem;
+    margin: 5rem 0;
 }
 
 
 /* SLIDER SETTINGS */
 
-.portfolio h2 {
+#portfolio h2 {
     text-align: center;
-    font-size: 5rem;
+    /* font-size: 5rem; */
     margin: 1rem;
 }
 
-.portfolio p {
+#portfolio p {
     font-size: 2rem;
     padding: 0rem 2rem;
 }
@@ -152,18 +153,24 @@ ul.sliderContenido li:target {
 
 /* Barra de navegacion */
 
-.navbar {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
+nav {
     background-color: #333;
+    /* background-color: transparent; */
+    /* height: 200px; */
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;   
+    align-items: baseline;
     color: white;
+    z-index: 1;
+    /* margin: 0px; */
 }
 
-.marca {
-    font-size: 1.5rem;
-    margin: .5rem;
+#marca {
+    font-size: 4rem;
+    padding: 0 0 0 2%;
+    /* margin: 1rem; */
 }
 
 .navbar-links {
@@ -184,7 +191,7 @@ ul.sliderContenido li:target {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .navbar-links li:hover {
@@ -193,30 +200,33 @@ ul.sliderContenido li:target {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
+    /* top: .75rem; */
+    right: 2%;
+    /* display: none; */
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    /* align-items: baseline; */
 }
 
 .toggle-button .bar {
     height: 3px;
     width: 100%;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 
 @media (max-width: 800px) {
-    .navbar {
+    nav {
         flex-direction: column;
-        align-items: flex-start;
+        /* align-items: flex-start; */
     }
 
     .toggle-button {
         display: flex;
+        margin-top: 2.5%;
+       
     }
 
     .navbar-links {
@@ -269,6 +279,7 @@ img.tech:hover {
     filter: none;
 }
 
+/* Andres */
 /* About US */
 
 #about-us-section {
@@ -328,3 +339,81 @@ img.tech:hover {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+=======
+/* Estilos agregados por Luis */
+
+/*Encabezado*/
+.item1 {grid-area: header;}
+/*Menú*/
+.item2 {grid-area: menu;}
+/*Principal*/
+.item3 {grid-area: main;}
+/*Aside*/
+.item4 {grid-area: aside;}
+/*Pie*/
+.item5 {grid-area: footer;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        /*4 columnas y 4 filas*/
+        'header header header header'
+        'menu main main aside'
+        'menu main main aside'
+        'footer footer footer footer';
+    gap: 10px;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+}
+
+/* .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+} */
+
+h2{
+    text-align: center;
+    background-color: #555;
+    color: azure;
+    padding: 0.5rem;
+}
+
+.who p{
+    text-align: justify;
+    padding: 1rem 10rem;
+}
+
+.whatwedo  p{
+    text-align: justify;
+    padding: 1rem 10rem;
+}
+
+.boton_enviar{
+    /* width: rem; */
+    font-weight: bold;
+    padding: 0.5rem;
+    border: 0;
+    /* height: 10rem; */
+    background-color:darkblue;
+    color: azure;
+    font-size: 2.5rem;
+    border: none;
+    /* align-items: center; */
+
+}
+
+#msg{
+    height: 40px;
+}
+
+/* .whatwedo h2{
+
+}
+
+.tech-title h2{
+
+
+} */
+
