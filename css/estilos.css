@@ -49,30 +49,31 @@ a:visited, a:link {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f8c1c3;
-    height: 80rem;
-    margin: 5rem 0;
+    /* background-color: #f8c1c3; */
+    /* height: 80rem; */
+    margin: 2rem auto;
+    /* padding: 1rem; */
 }
 
 
 /* SLIDER SETTINGS */
 
-#portfolio h2 {
+/* #portfolio h2 {
     text-align: center;
     /* font-size: 5rem; */
-    margin: 1rem;
-}
+    /* margin: 0rem; */
+/* }  */
 
 #portfolio p {
-    font-size: 2rem;
-    padding: 0rem 2rem;
+    /* font-size: 2rem; */
+    text-align: justify;
+    padding: 1rem 10rem;
 }
 
 .containerSlider {
-    margin: auto;
-    padding: 2rem;
+    /* margin: 0 auto; */
+    /* padding: 2rem; */
     width: 100%;
-    height: 60rem;
 }
 
 .sliderContenido {
@@ -104,13 +105,13 @@ ul.sliderContenido li img {
     object-fit: cover;
 }
 
-#trabajo1 {
+#trabajo1, #trabajo2, #trabajo3, #trabajo4 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#trabajo2 {
+/* #trabajo2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,7 +127,7 @@ ul.sliderContenido li img {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 /* SLIDER PICKER */
 
@@ -141,11 +142,13 @@ ul.sliderContenido li:target {
 .sliderMenu {
     display: flex;
     justify-content: center;
+
 }
 
 .sliderMenu li a {
     font-size: 3rem;
     padding: 1rem;
+
 }
 
 
@@ -167,7 +170,7 @@ nav {
     /* margin: 0px; */
 }
 
-#marca {
+.marca {
     font-size: 4rem;
     padding: 0 0 0 2%;
     /* margin: 1rem; */
@@ -255,7 +258,24 @@ nav {
     }
 }
 
+/* Quiénes somos */
+#who{
+    /* background-color: aquamarine; */
+    /* background-color: #505393; */
+}
+
+/* Qué hacemos */
+#whatwedo{
+    /* background-color: #f8c1c3; */
+}
+
 /* Tecnologias */
+
+#techs{
+    /* background-color: aquamarine; */
+    /* background-color: #505393; */
+}
+
 .tech-container {
     display: flex;
     flex-wrap: wrap;
@@ -324,7 +344,7 @@ img.tech:hover {
 .about-us-img {
     display: inline-block;
     position: relative;
-    float: right;
+    /* float: right; */
     width: 100px;
     height: 100px;
     max-width: 120px;
@@ -339,7 +359,7 @@ img.tech:hover {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-=======
+
 /* Estilos agregados por Luis */
 
 /*Encabezado*/
@@ -350,8 +370,10 @@ img.tech:hover {
 .item3 {grid-area: main;}
 /*Aside*/
 .item4 {grid-area: aside;}
+/* formulario */
+.item5 {grid-area: form;}
 /*Pie*/
-.item5 {grid-area: footer;}
+.item6 {grid-area: footer;}
 
 .grid-container {
     display: grid;
@@ -360,8 +382,9 @@ img.tech:hover {
         'header header header header'
         'menu main main aside'
         'menu main main aside'
+        'form form form form'
         'footer footer footer footer';
-    gap: 10px;
+    gap: 20px;
     /* background-color: #2196F3; */
     /* padding: 10px; */
 }
@@ -390,30 +413,38 @@ h2{
     padding: 1rem 10rem;
 }
 
-.boton_enviar{
-    /* width: rem; */
-    font-weight: bold;
-    padding: 0.5rem;
-    border: 0;
-    /* height: 10rem; */
-    background-color:darkblue;
-    color: azure;
-    font-size: 2.5rem;
-    border: none;
+form{
     /* align-items: center; */
+    text-align: center;
+    /* padding: 0 0 0 40%; */
 
+}
+
+.input_1{
+    width: 30rem;
+    height: 3rem;
+    margin: 0.3rem;
+    
 }
 
 #msg{
-    height: 40px;
+    width: 40rem;
+    height: 20rem;
+    /* margin: 0.3rem; */
 }
 
-/* .whatwedo h2{
+.boton_enviar{
+    width: 10rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* padding: 5rem; */
+    margin: 0 0 5rem 0;
+    /* background-color:darkblue; */
+    background-color: #505393;
+    color: azure;
+    border-radius: 0.5rem;
 
 }
 
-.tech-title h2{
-
-
-} */
 
