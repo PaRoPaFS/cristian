@@ -52,7 +52,12 @@
         </div>
 
         <!-- MENÚ -->
-        <div class="item2">Menú</div>
+        <div class="item2"><br><br><br>
+            <p>En esta sección debemos colocar recuadros que contengan las publicaciones activas que tengamos en el
+                momento. En otras palabras los proyectos disponibles para que los Programadores se postulen</p>
+            <p>Cada recuadro debe contener los datos principales del proyecto. Sin incluir ningun párrafo extenso que
+                pueda generar rechazo a los postulantes</p>
+        </div>
 
         <!-- CONTENIDO PRINCIPAL= MAIN -->
         <div class="item3">
@@ -259,10 +264,9 @@
                         </li>
                         <li>
                             <img class="about-us-img" src="img/Luis.jpeg" alt="Luis">
-                            <h3>Luis</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas illum quos, minima
-                                repellat vel ratione dolorum eveniet molestiae ducimus reiciendis fugiat ipsa est iure
-                                fugit explicabo nemo magni repudiandae ea.</p>
+                            <h3 class="text-contraste">Luis</h3>
+                            <p class="text-contraste">Aficionado a la tecnología. Flexible y razonable. Ingeniero de profesión. Su meta: 
+                                agilizar los procesos para encontrar la forma más fácil de resolver cada problema</p>
                         </li>
                         <li>
                             <img class="about-us-img" src="" alt="Cristian">
@@ -280,39 +284,89 @@
 
 
         <!-- ASIDE -->
-        <div class="item4">Aside</div>
+        <div class="item4"><br><br><br>
+            <p>Aqui realmente no se que podamos colocar, la dejé para darle estructura a la pág. Pero capaz a ustedes se
+                les ocurre algo más.</p>
+        </div>
 
-        <!-- FOOTER -->
+        <!-- FORMULARIO -->
         <div class="item5">
             <div id="contact">
                 <h2>CONTÁCTANOS</h2>
-                <!-- AQUI VA EL FORMULARIO DE CONTACTO -->
-
-                <form action="show_formulario.html" target="_blank">
-                    <label for="firstname"></label>
-                    <input type="text" name="Nombre" placeholder="Nombre" class="input_1">
-                    <br>
-                    <label for="lastname"></label>
-                    <input type="text" name="Apellido" placeholder="Apellido" class="input_1">
-                    <br>
-                    <label for="mail"></label>
-                    <input type="text" name="Email" placeholder="Email" class="input_1">
-                    <br>
-                    <label for="telefono"></label>
-                    <input type="number" name="Telefono" placeholder="Teléfono" class="input_1">
-                    <br>
-                    <label for="comentarios"></label>
-                    <textarea id="msg" name="Comentarios" cols="30" rows="10"
-                        placeholder="Descripción del proyecto"></textarea>
-                    <br>
-                    <input class="boton_enviar" type="submit" value="Enviar">                    
-
-                </form>
             </div>
+            <!-- AQUI VA EL FORMULARIO DE CONTACTO -->
+
+            <form action="show_formulario.html" target="_blank" class="grid-container-form">
+                <label for="firstname"></label>
+                <input type="text" name="firstname" placeholder="Nombre" class="hijo input_1">
+                <br>
+                <label for="lastname"></label>
+                <input type="text" name="lastname" placeholder="Apellido" class="hijo input_2">
+                <br>
+                <label for="mail"></label>
+                <input type="text" name="Email" placeholder="Email" class="hijo input_3">
+                <br>
+                <label for="telefono"></label>
+                <input type="number" name="phone" placeholder="Teléfono" class="hijo input_4">
+                <br>
+                <label for="comentarios"></label>
+                <textarea id="msg" name="Comentarios" cols="30" rows="10" placeholder="Descripción del proyecto"
+                    class="hijo input_5"></textarea>
+                <br>
+
+                <fieldset class="input_6">
+                    <legend>Área de Desarrollo</legend>
+                    <label for="text">Tipo de Software</label>
+                    <select name="software" id="">
+                        <option selected value="1">Sitio Web</option>
+                        <option value="2">App Mobile</option>
+                        <option value="3">Desktop Software</option>
+                        <option value="4">Otro</option>
+                    </select><br><br>
+
+                    <label for="text">Tecnologías de preferencia</label><br>
+                    <input type="checkbox" name="conocimiento previo" value="HTML">HTML
+                    <input type="checkbox" name="conocimiento previo" value="CSS">CSS
+                    <input type="checkbox" name="conocimiento previo" value="JS">JavaScript
+                    <input type="checkbox" name="conocimiento previo" value="PT">Python
+                    <input type="checkbox" name="conocimiento previo" value="O">Otro
+
+                    <!-- <br> -->
+
+                    <!-- <label for="intereses">Tengo interés en...</label>
+                            <input type="radio" name="interes" value="1">Python
+                            <input type="radio" name="interes" value="2">Java
+                            <input type="radio" name="interes" value="3">PHP
+                            <input type="radio" name="interes" value="4">Diseño UX/UI
+                        -->
+                </fieldset><br><br>
+
+                <input class="boton_enviar" type="submit" value="Enviar">
+            </form>
         </div>
 
+        <!-- FOOTER -->
         <div class="item6">
-            <footer>
+            <footer class="grid-container-footer">
+
+                <div class="area_2">
+                    <h4>CODER FARM</h4>
+                </div>
+
+                <div class="area_3">
+                    <div class="boton_inicio">
+                        <a href="#marca">Incio</a>
+                    </div>
+                </div>
+
+                <div class="area_4">
+                    <h5>Contacto</h5>+54 9 11 xxxx-xxxx <br>Buenos Aires
+                </div>
+
+                <div class="area_5">
+                    <p><small>© 2022 <code translate="no"><span>CODER FARM</span></code>
+                            <br>All rights reserved</p>
+                </div>
 
             </footer>
         </div>
