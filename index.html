@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/estilos.css">
 
     <script src="script.js" defer></script>
+    <link rel="icon" type="ico" href="img/favicon.ico" />
     <title>coder-farm</title>
 </head>
 
@@ -52,11 +53,32 @@
         </div>
 
         <!-- MENÚ -->
-        <div class="item2"><br><br><br>
-            <p>En esta sección debemos colocar recuadros que contengan las publicaciones activas que tengamos en el
-                momento. En otras palabras los proyectos disponibles para que los Programadores se postulen</p>
-            <p>Cada recuadro debe contener los datos principales del proyecto. Sin incluir ningun párrafo extenso que
-                pueda generar rechazo a los postulantes</p>
+        <div class="item2"><br><br>
+            <h2>RETOS ACTIVOS</h2>
+            <div class="retos-activos">
+                <p>En esta sección podrás encontrar los retos que tenemos actualmente activos.</p>
+                <p>Lee detenidamente cada enunciado. En caso de ser de tu interés y que sientas que está dentro de tus
+                    posibilidades actuales no pierdas la oportunidad de postularte. Esto será de gran ayuda para tu
+                    crecimiento profesional como desarrollador de software.</p>
+                <p><span><b>¡Mucha suerte!</b></span></p>
+            </div>
+
+            <div class="retos-activos-lista">
+                <h3>RETO 1</h3>
+                <iframe src="otras-pag/reto1.html" width=280 height=200 scrolling="auto">El navegador no soporta la etiqueta iframe</iframe>
+                <br><br>
+                <h3>RETO 2</h3>
+                <iframe src="otras-pag/reto2.html" width=280 height=200 scrolling="auto">El navegador no soporta la etiqueta iframe</iframe>
+                <br><br>
+                <h3>RETO 3</h3>
+                <iframe src="otras-pag/reto4.html" width=280 height=200 scrolling="auto">El navegador no soporta la etiqueta iframe</iframe>
+                <br><br>
+                <h3>RETO 4</h3>
+                <iframe src="otras-pag/reto5.html" width=280 height=200 scrolling="auto">El navegador no soporta la etiqueta iframe</iframe>
+
+            </div>
+
+
         </div>
 
         <!-- CONTENIDO PRINCIPAL= MAIN -->
@@ -80,7 +102,7 @@
                         Ponemos a disposición nuestra plataforma web para que cualquier empresa o negocio publique un
                         "reto de programación". Una vez generado, todo entusiasta Trainee o Junior podrá postularse al
                         mismo de manera sencilla y nuestro departamento técnico hará los filtros correspondientes para
-                        designar al postulante más adecuado en cada reto.
+                        designar al postulante más adecuado para cada reto.
                     </p>
 
                 </div>
@@ -231,7 +253,7 @@
                                 consequuntur quis perferendis impedit labore atque, maxime eos ab quas nostrum quam
                                 repellendus! Dicta incidunt saepe consequuntur ipsum cum!</p>
                         </li>
-                    </ul><br><br>
+                    </ul><br>
                     <ul class="sliderMenu">
                         <li>
                             <a href="#trabajo1">●</a>
@@ -265,7 +287,8 @@
                         <li>
                             <img class="about-us-img" src="img/Luis.jpeg" alt="Luis">
                             <h3 class="text-contraste">Luis</h3>
-                            <p class="text-contraste">Aficionado a la tecnología. Flexible y razonable. Ingeniero de profesión. Su meta: 
+                            <p class="text-contraste">Aficionado a la tecnología. Flexible y razonable. Ingeniero de
+                                profesión. Su meta:
                                 agilizar los procesos para encontrar la forma más fácil de resolver cada problema</p>
                         </li>
                         <li>
@@ -284,9 +307,11 @@
 
 
         <!-- ASIDE -->
-        <div class="item4"><br><br><br>
-            <p>Aqui realmente no se que podamos colocar, la dejé para darle estructura a la pág. Pero capaz a ustedes se
-                les ocurre algo más.</p>
+        <div class="item4"><br><br>
+            <h2>CLIENTES</h2>
+            <div>
+                <p>Empresas que han confiado en nosotros:</p>
+            </div>
         </div>
 
         <!-- FORMULARIO -->
@@ -296,7 +321,7 @@
             </div>
             <!-- AQUI VA EL FORMULARIO DE CONTACTO -->
 
-            <form action="show_formulario.html" target="_blank" class="grid-container-form">
+            <form action="otras-pag/show_formulario.html" target="_blank" class="grid-container-form">
                 <label for="firstname"></label>
                 <input type="text" name="firstname" placeholder="Nombre" class="hijo input_1">
                 <br>
@@ -349,6 +374,10 @@
         <div class="item6">
             <footer class="grid-container-footer">
 
+                <div class="area_1">
+                    <!-- Nada aún -->
+                </div>
+
                 <div class="area_2">
                     <h4>CODER FARM</h4>
                 </div>
@@ -360,12 +389,18 @@
                 </div>
 
                 <div class="area_4">
-                    <h5>Contacto</h5>+54 9 11 xxxx-xxxx <br>Buenos Aires
+                    <!-- <h5>Contacto</h5><span class="material-symbols-outlined">sms</span>+54 9 11 xxxx-xxxx -->
+                    <h5>Contacto</h5>
+                    <span class="material-symbols-outlined">smartphone</span>+54 9 11 xxxx-xxxx
+                    <br>
+                    <span class="material-symbols-outlined">location_on</span>Buenos Aires, Argentina.
                 </div>
 
                 <div class="area_5">
+
                     <p><small>© 2022 <code translate="no"><span>CODER FARM</span></code>
-                            <br>All rights reserved</p>
+                            <br>
+                            All rights reserved</p>
                 </div>
 
             </footer>
