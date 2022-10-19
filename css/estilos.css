@@ -29,6 +29,7 @@ h1{
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
     font-size: 3rem;
+    margin: 0;
 }
 
 img{
@@ -146,14 +147,16 @@ nav {
     /* height: 200px; */
     width: 100%;
     display: flex;
-    position: fixed;
     justify-content: space-between;   
-    align-items: baseline;
+    align-items: center;
     color: azure;
     z-index: 1;
-
 }
 
+header {
+    top: 0;
+    position: sticky;
+}
 .marca {
     font-size: 4rem;
     padding: 0 0 0 2%;
@@ -166,8 +169,8 @@ nav {
 
 .navbar-links ul {
     display: flex;
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 1rem;
 }
 
 .navbar-links li {
@@ -178,7 +181,7 @@ nav {
     display: block;
     text-decoration: none;
     color: azure;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .navbar-links li:hover {
@@ -396,7 +399,7 @@ img.tech:hover {
         'form form form form'
         'footer footer footer footer';
         grid-template-columns: 1.5fr 2fr 2fr 1fr ;
-        gap: 20px;
+        gap: 0rem;
         /* background-color: #2196F3; */
         /* padding: 10px; */
         /* margin: 50px; */
