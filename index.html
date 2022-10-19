@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link
@@ -86,7 +88,7 @@
         <!-- CONTENIDO PRINCIPAL= MAIN -->
         <div class="item3">
 
-            <section id="who"><br><br>
+            <section id="who" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="linear"><br><br>
                 <div class="who">
                     <h2>¿QUIÉNES SOMOS?</h2>
                     <p>Somos una iniciativa que surge para hacer el nexo entre aquellos programadores trainee que buscan
@@ -97,7 +99,7 @@
             </section>
 
 
-            <section id="whatwedo"><br><br>
+            <section id="whatwedo" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="linear"><br><br>
                 <div class="whatwedo">
                     <h2>¿QUÉ HACEMOS?</h2>
                     <p>
@@ -110,7 +112,7 @@
                 </div>
             </section>
 
-            <section id="techs"><br><br>
+            <section id="techs" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="linear"><br><br>
                 <div class="tech-body">
                     <h2>TECNOLOGÍAS</h2>
                     <div class="tech-container">
@@ -227,7 +229,7 @@
             </section>
 
             <!-- <section id="projects"></section> -->
-            <section id="portfolio"><br><br>
+            <section id="portfolio" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="linear"><br><br>
                 <div class="containerSlider">
                     <h2>PROYECTOS REALIZADOS</h2>
                     <ul class="sliderContenido">
@@ -275,7 +277,7 @@
 
             <!-- SECCIÓN DE ANDRES ABOUT US -->
 
-            <section id="about-us-section"><br><br>
+            <section id="about-us-section" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="linear"><br><br>
                 <h2>NOSOTROS</h2>
                 <div class="about-us">
                     <ul class="about-us-lista">
@@ -409,7 +411,9 @@
         </div>
     </div>
 
-
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
