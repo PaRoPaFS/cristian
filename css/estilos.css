@@ -699,6 +699,31 @@ table{
 
     .area_4 iframe {
         visibility: hidden;
-        width: 33.3%;
+        width: 0;
+        height: 0;
+    }
+
+    iframe {
+        width: 0%;
+        height: 0%;
+    }
+    .area_4 {
+        align-items: center;
+    }
+    .grid-container-form{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .input_5 {
+        width: 50vw;
+        margin-right: 1rem;
+    }
+
+    p .copyr {
+        font-size: 1rem;
     }
 }
