@@ -143,14 +143,11 @@ ul.sliderContenido li:target {
 
 nav {
     background-color: #333;
-    /* background-color: transparent; */
-    /* height: 200px; */
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;   
     align-items: center;
     color: azure;
-    /* z-index: 1; */
 }
 
 nav ul li {
@@ -159,6 +156,7 @@ nav ul li {
 header {
     top: 0;
     position: sticky;
+    z-index: 1;
 }
 .marca {
     font-size: 4rem;
@@ -281,47 +279,49 @@ img.tech:hover {
 }
 
 .about-us {
-    width: 66%;
     margin: 0 auto;
 }
 
 .about-us-lista {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
     padding: 0;
     width: 100%;
+    height: 60rem;
 }
 
 .about-us-lista h3 {
     text-transform: uppercase;
-    margin: 0 0 1em 0;
     text-align: left;
+    padding: 1rem;
 }
 
 .about-us-lista li:nth-child(2n+1) {
     border-top-left-radius: 3px;
-    /* background-color: rgba(0,0,0,0.035); */
-    /* background-color: #C3C3C3; */
-    /* color: #555; */
     background-color: #555;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 .about-us-lista li {
-    padding: 4em 4em 2em 6em;
+    padding: 1rem;
+    margin: 3.5rem;
     display: block;
     position: relative;
     text-align: left;
-    width: 33.3%
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #555;
+    border-radius: 0.5rem;
     
 }
 
 .about-us-img {
     display: inline-block;
     position: relative;
-    /* float: right; */
+    margin-top: 3rem;
     width: 100px;
     height: 100px;
     max-width: 120px;
@@ -367,6 +367,7 @@ img.tech:hover {
 /*Principal*/
 .item3 {
     grid-area: main;
+    z-index: 0;
 }
 /*Aside*/
 .item4 {
